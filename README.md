@@ -1,3 +1,15 @@
+---
+title: Student Performance Prediction
+emoji: 📘
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: "4.0.0"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+---
+
 # Student Performance Prediction System
 
 A machine learning system that predicts whether a student will pass or fail an exam based on socioeconomic score, daily study hours, daily sleep hours, and class attendance percentage. Built with a Decision Tree classifier, served through a Gradio web interface, and deployed on Hugging Face Spaces.
