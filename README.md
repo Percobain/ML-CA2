@@ -6,27 +6,30 @@ Live demo: https://huggingface.co/spaces/percobain/Student-Performance-Predictio
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
-- [Dataset](#dataset)
-- [Notebook Walkthrough](#notebook-walkthrough)
-  - [Step 1: Imports and Setup](#step-1-imports-and-setup)
-  - [Step 2: Data Loading and Inspection](#step-2-data-loading-and-inspection)
-  - [Step 3: Exploratory Data Analysis](#step-3-exploratory-data-analysis)
-  - [Step 4: Feature Engineering and Target Creation](#step-4-feature-engineering-and-target-creation)
-  - [Step 5: Train Test Split](#step-5-train-test-split)
-  - [Step 6: Baseline Decision Tree](#step-6-baseline-decision-tree)
-  - [Step 7: Hyperparameter Tuning](#step-7-hyperparameter-tuning)
-  - [Step 8: Evaluation](#step-8-evaluation)
-  - [Step 9: Model Export](#step-9-model-export)
-  - [Step 10: Prediction Demo](#step-10-prediction-demo)
-- [Why Decision Tree and Not Other Algorithms](#why-decision-tree-and-not-other-algorithms)
-- [Why These Feature Engineering Choices](#why-these-feature-engineering-choices)
-- [Why GridSearchCV and Not Random Search or Bayesian](#why-gridsearchcv-and-not-random-search-or-bayesian)
-- [Why F1 Score as the Optimization Metric](#why-f1-score-as-the-optimization-metric)
-- [Why Joblib and Not Pickle](#why-joblib-and-not-pickle)
-- [Why Gradio and Not Streamlit or Flask](#why-gradio-and-not-streamlit-or-flask)
-- [Final Model Performance](#final-model-performance)
-- [How to Run](#how-to-run)
+- [Student Performance Prediction System](#student-performance-prediction-system)
+  - [Table of Contents](#table-of-contents)
+  - [Project Structure](#project-structure)
+  - [Dataset](#dataset)
+  - [Notebook Walkthrough](#notebook-walkthrough)
+    - [Step 1: Imports and Setup](#step-1-imports-and-setup)
+    - [Step 2: Data Loading and Inspection](#step-2-data-loading-and-inspection)
+    - [Step 3: Exploratory Data Analysis](#step-3-exploratory-data-analysis)
+    - [Step 4: Feature Engineering and Target Creation](#step-4-feature-engineering-and-target-creation)
+    - [Step 5: Train Test Split](#step-5-train-test-split)
+    - [Step 6: Baseline Decision Tree](#step-6-baseline-decision-tree)
+    - [Step 7: Hyperparameter Tuning](#step-7-hyperparameter-tuning)
+    - [Step 8: Evaluation](#step-8-evaluation)
+    - [Step 9: Model Export](#step-9-model-export)
+    - [Step 10: Prediction Demo](#step-10-prediction-demo)
+  - [Why Decision Tree and Not Other Algorithms](#why-decision-tree-and-not-other-algorithms)
+  - [Why These Feature Engineering Choices](#why-these-feature-engineering-choices)
+  - [Why GridSearchCV and Not Random Search or Bayesian](#why-gridsearchcv-and-not-random-search-or-bayesian)
+  - [Why F1 Score as the Optimization Metric](#why-f1-score-as-the-optimization-metric)
+  - [Why Joblib and Not Pickle](#why-joblib-and-not-pickle)
+  - [Why Gradio and Not Streamlit or Flask](#why-gradio-and-not-streamlit-or-flask)
+  - [Final Model Performance](#final-model-performance)
+  - [How to Run](#how-to-run)
+  - [Team](#team)
 
 
 ## Project Structure
@@ -312,3 +315,12 @@ Opens at http://localhost:7860
 
 **View the deployed app:**
 https://huggingface.co/spaces/percobain/Student-Performance-Prediction
+
+
+## Team
+
+Shreyans Tatiya - 16010123325
+
+Shreya Menon - 16010123324
+
+Siddhant Raut - 16010123331
